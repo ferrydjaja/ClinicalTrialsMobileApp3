@@ -1,0 +1,22 @@
+[
+ {
+   "code": "10676",
+   "distance": "All distances"
+ },
+ {
+   "code": "25",
+   "distance": "0-25 miles"
+ },
+ {
+   "code": "50",
+   "distance": "0-50 miles"
+ },
+ {
+   "code": "100",
+   "distance": "0-100 miles"
+ },
+ {
+   "code": "150",
+   "distance": "0-150 miles"
+ }
+]

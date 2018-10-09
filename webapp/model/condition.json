@@ -1,0 +1,402 @@
+[
+ {
+   "desc": "ALK-positive (Lung)",
+   "code": "ALK-positive"
+ },
+ {
+   "desc": "Acne (Skin)",
+   "code": "Acne"
+ },
+ {
+   "desc": "Allergies (Allergies)",
+   "code": "Allergies"
+ },
+ {
+   "desc": "Alzheimer's (Neurology)",
+   "code": "Alzheimer"
+ },
+ {
+   "desc": "Amyloidosis (Immune Conditions)",
+   "code": "Amyloidosis"
+ },
+ {
+   "desc": "Ankylosing Spondylitis (Musculoskeletal)",
+   "code": "Ankylosing Spondylitis"
+ },
+ {
+   "desc": "Anxiety (Mental Health)",
+   "code": "Anxiety"
+ },
+ {
+   "desc": "Arthritis (Arthritis)",
+   "code": "Arthritis"
+ },
+ {
+   "desc": "Asthma (Lung)",
+   "code": "Asthma"
+ },
+ {
+   "desc": "Atrial Fibrillation (Heart / Cardiovascular)",
+   "code": "Atrial Fibrillation"
+ },
+ {
+   "desc": "Attention Deficit Disorder (Mental Health)",
+   "code": "Attention Deficit Disorder"
+ },
+ {
+   "desc": "Back Pain (Pain)",
+   "code": "Back Pain"
+ },
+ {
+   "desc": "Bipolar Disorder (Mental Health)",
+   "code": "Bipolar Disorder"
+ },
+ {
+   "desc": "Breast (Cancer)",
+   "code": "Breast"
+ },
+ {
+   "desc": "COPD (Lung)",
+   "code": "COPD"
+ },
+ {
+   "desc": "Cancer (Cancer)",
+   "code": "Cancer"
+ },
+ {
+   "desc": "Candidemia (Infection)",
+   "code": "Candidemia"
+ },
+ {
+   "desc": "Cardiac (Heart / Cardiovascular)",
+   "code": "Cardiac"
+ },
+ {
+   "desc": "Cardiovascular Disease (Heart / Cardiovascular)",
+   "code": "Cardiovascular Disease"
+ },
+ {
+   "desc": "Cholesterol (Heart / Cardiovascular)",
+   "code": "Cholesterol"
+ },
+ {
+   "desc": "Chronic Pain (Pain)",
+   "code": "Chronic Pain"
+ },
+ {
+   "desc": "Clostridium (Infection)",
+   "code": "Clostridium"
+ },
+ {
+   "desc": "Colon (Cancer)",
+   "code": "Colon"
+ },
+ {
+   "desc": "Crohn's Disease (Gastrointestinal)",
+   "code": "Crohn Disease"
+ },
+ {
+   "desc": "Dementia (Neurology)",
+   "code": "Dementia"
+ },
+ {
+   "desc": "Depression (Mental Health)",
+   "code": "Depression"
+ },
+ {
+   "desc": "Dermatitis (Skin)",
+   "code": "Dermatitis"
+ },
+ {
+   "desc": "Eczema (Skin)",
+   "code": "Eczema"
+ },
+ {
+   "desc": "Endocrine (Endocrine / Hormone)",
+   "code": "Endocrine"
+ },
+ {
+   "desc": "Epilepsy (Neurology)",
+   "code": "Epilepsy"
+ },
+ {
+   "desc": "Erectile Dysfunction (ED) (Male Sexual Health)",
+   "code": "Erectile Dysfunction (ED)"
+ },
+ {
+   "desc": "Eye Strain (Eye)",
+   "code": "Eye Strain"
+ },
+ {
+   "desc": "Fibromyalgia (Pain)",
+   "code": "Fibromyalgia"
+ },
+ {
+   "desc": "GERD (Gastrointestinal)",
+   "code": "GERD"
+ },
+ {
+   "desc": "Gastrointestinal (Cancer)",
+   "code": "Gastrointestinal"
+ },
+ {
+   "desc": "Glaucoma (Eye)",
+   "code": "Glaucoma"
+ },
+ {
+   "desc": "Glioma (Neurology)",
+   "code": "Glioma"
+ },
+ {
+   "desc": "Gout (Metabolism)",
+   "code": "Gout"
+ },
+ {
+   "desc": "Growth Hormone Deficiency (Endocrine / Hormone)",
+   "code": "Growth Hormone Deficiency"
+ },
+ {
+   "desc": "Headache / Migraine (Headache / Migraine)",
+   "code": "Headache Migraine"
+ },
+ {
+   "desc": "Healthy (Healthy Volunteers)",
+   "code": "Healthy"
+ },
+ {
+   "desc": "Healthy Adult (Healthy Volunteers)",
+   "code": "Healthy Adult"
+ },
+ {
+   "desc": "Healthy Elderly (Healthy Volunteers)",
+   "code": "Healthy Elderly"
+ },
+ {
+   "desc": "Hemophilia (Blood)",
+   "code": "Hemophilia"
+ },
+ {
+   "desc": "Hepatic Insufficiency (Gastrointestinal)",
+   "code": "Hepatic Insufficiency"
+ },
+ {
+   "desc": "Hodgkin (Cancer)",
+   "code": "Hodgkin"
+ },
+ {
+   "desc": "Huntington's Disease (Neurology)",
+   "code": "Huntington Disease"
+ },
+ {
+   "desc": "Hypertension (Heart / Cardiovascular)",
+   "code": "Hypertension"
+ },
+ {
+   "desc": "IBS (Gastrointestinal)",
+   "code": "IBS"
+ },
+ {
+   "desc": "Infection (Infection)",
+   "code": "Infection"
+ },
+ {
+   "desc": "Insomnia (Sleep)",
+   "code": "Insomnia"
+ },
+ {
+   "desc": "Irritated Eyes (Eye)",
+   "code": "Irritated Eyes"
+ },
+ {
+   "desc": "Juvenile (Arthritis)",
+   "code": "Juvenile"
+ },
+ {
+   "desc": "Lack of Sexual Desire (Female Sexual Health)",
+   "code": "Lack of Sexual Desire"
+ },
+ {
+   "desc": "Leukemia (Cancer)",
+   "code": "Leukemia"
+ },
+ {
+   "desc": "Low Testosterone (Male Sexual Health)",
+   "code": "Low Testosterone"
+ },
+ {
+   "desc": "Lung (Cancer)",
+   "code": "Lung"
+ },
+ {
+   "desc": "Lung Cancer (Lung)",
+   "code": "Lung Cancer"
+ },
+ {
+   "desc": "Lupus (Immune Conditions)",
+   "code": "Lupus"
+ },
+ {
+   "desc": "Lymphoma (Immune Conditions)",
+   "code": "Lymphoma"
+ },
+ {
+   "desc": "Macular Degeneration (Eye)",
+   "code": "Macular Degeneration"
+ },
+ {
+   "desc": "Major Depressive Disorder (Mental Health)",
+   "code": "Major Depressive Disorder"
+ },
+ {
+   "desc": "Melanoma (Skin)",
+   "code": "Melanoma"
+ },
+ {
+   "desc": "Meningococcal (Infection)",
+   "code": "Meningococcal"
+ },
+ {
+   "desc": "Multiple Sclerosis (Neurology)",
+   "code": "Multiple Sclerosis"
+ },
+ {
+   "desc": "Muscular Dystrophy (Musculoskeletal)",
+   "code": "Muscular Dystrophy"
+ },
+ {
+   "desc": "Musculoskeletal (Musculoskeletal)",
+   "code": "Musculoskeletal"
+ },
+ {
+   "desc": "Myelofibrosis (Blood)",
+   "code": "Myelofibrosis"
+ },
+ {
+   "desc": "Neoplasm (Cancer)",
+   "code": "Neoplasm"
+ },
+ {
+   "desc": "Obsessive Compulsive Disorder (Mental Health)",
+   "code": "Obsessive Compulsive Disorder"
+ },
+ {
+   "desc": "Opioid Users (Mental Health)",
+   "code": "Opioid User"
+ },
+ {
+   "desc": "Osteoarthritis (Musculoskeletal)",
+   "code": "Osteoarthritis"
+ },
+ {
+   "desc": "Osteoporosis (Musculoskeletal)",
+   "code": "Osteoporosis"
+ },
+ {
+   "desc": "Ovarian (Cancer)",
+   "code": "Ovarian"
+ },
+ {
+   "desc": "Overactive Bladder (Kidney / Bladder)",
+   "code": "Overactive Bladder"
+ },
+ {
+   "desc": "Pain (Pain)",
+   "code": "Pain"
+ },
+ {
+   "desc": "Pancreatic (Gastrointestinal)",
+   "code": "Pancreatic"
+ },
+ {
+   "desc": "Parkinson's (Neurology)",
+   "code": "Parkinson"
+ },
+ {
+   "desc": "Pneumococcal (Infection)",
+   "code": "Pneumococcal"
+ },
+ {
+   "desc": "Pneumonia (Lung)",
+   "code": "Pneumonia"
+ },
+ {
+   "desc": "Premature Ejaculation (Male Sexual Health)",
+   "code": "Premature Ejaculation"
+ },
+ {
+   "desc": "Prostate (Cancer)",
+   "code": "Prostate"
+ },
+ {
+   "desc": "Psoriasis (Skin)",
+   "code": "Psoriasis"
+ },
+ {
+   "desc": "Psoriatic (Arthritis)",
+   "code": "Psoriatic"
+ },
+ {
+   "desc": "Renal Cell (Kidney / Bladder)",
+   "code": "Renal Cell"
+ },
+ {
+   "desc": "Restless Leg Syndrome (Sleep)",
+   "code": "Restless Leg Syndrome"
+ },
+ {
+   "desc": "Rheumatoid (Immune Conditions)",
+   "code": "Rheumatoid"
+ },
+ {
+   "desc": "Rosacea (Skin)",
+   "code": "Rosacea"
+ },
+ {
+   "desc": "Schizophrenia (Mental Health)",
+   "code": "Schizophrenia"
+ },
+ {
+   "desc": "Seizures (Neurology)",
+   "code": "Seizures"
+ },
+ {
+   "desc": "Sickle Cell (Blood)",
+   "code": "Sickle Cell"
+ },
+ {
+   "desc": "Smoking Cessation (Lung)",
+   "code": "Smoking Cessation"
+ },
+ {
+   "desc": "Solid Tumor (Cancer)",
+   "code": "Solid Tumor"
+ },
+ {
+   "desc": "Staphylococcal (Infection)",
+   "code": "Staphylococcal"
+ },
+ {
+   "desc": "Thrombocytopenia (Kidney / Bladder)",
+   "code": "Thrombocytopenia"
+ },
+ {
+   "desc": "Thromboemolism (Heart / Cardiovascular)",
+   "code": "Thromboemolism"
+ },
+ {
+   "desc": "Type 1 (Diabetes)",
+   "code": "Type 1"
+ },
+ {
+   "desc": "Type 2 (Diabetes)",
+   "code": "Type 2"
+ },
+ {
+   "desc": "Ulcerative Colitis (Gastrointestinal)",
+   "code": "Ulcerative Colitis"
+ },
+ {
+   "desc": "Urinary (Kidney / Bladder)",
+   "code": "Urinary"
+ }
+]

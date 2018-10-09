@@ -1,0 +1,18 @@
+[
+ {
+   "code": "",
+   "age": "All"
+ },
+ {
+   "code": "0",
+   "age": "Child (birth-17)"
+ },
+ {
+   "code": "1",
+   "age": "Adult (18-64)"
+ },
+ {
+   "code": "2",
+   "age": "Older Adult (65+)"
+ }
+]

@@ -1,0 +1,121 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="ClinicalTrials.ClinicalTrials.controller.Detail" xmlns:uxap="sap.uxap" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:vbm="sap.ui.vbm" xmlns:vk="sap.ui.vk" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core">
+<Page title="{nct_id} - {brief_title}" showHeader="true" showNavButton="true" navButtonPress="doNavBack" enableScrolling="false">
+    <customHeader>
+            <Bar>
+                <contentLeft>
+                    <Button icon="sap-icon://nav-back" press="doNavBack" tooltip="Back" />
+                </contentLeft>
+                <contentMiddle>
+                    <Text text="{nct_id} - {brief_title}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" />
+                </contentMiddle>
+                <contentRight>
+                    <Button icon="sap-icon://home" press="doNavHome" tooltip="Home" />
+                </contentRight>
+            </Bar>
+        </customHeader>
+     <uxap:ObjectPageLayout showTitleInHeaderContent="true" showHeaderContent="true" showAnchorBar="false" showFooter="false" subSectionLayout="TitleOnTop">
+        <uxap:headerContent>
+             <ObjectHeader intro="" title="" icon="" number="" numberUnit="" numberState="None" titleActive="false" backgroundDesign="Transparent" condensed="false" visible="true">
+                <attributes/>
+                <statuses/>
+                <markers/>
+            </ObjectHeader>
+            <IconTabBar expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Transparent" upperCase="false" visible="true" selectedKey="Ok">
+                <items>
+                    <IconTabFilter icon="sap-icon://map-2" text="Location" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <content>
+                             <vbm:GeoMap id="vbi" legendVisible="true" scaleVisible="true" width="100%" height="200px" centerPosition="13.407965;52.517906" initialZoom="2" zoomlevel="3" enableAnimation="false" refMapLayerStack="Default" disableZoom="false" disablePan="false">
+                                <vbm:vos>
+                                    <vbm:Spots items="{/modelData1/0/Spots}">
+                                        <vbm:items>
+                                            <vbm:Spot position="{pos}" tooltip="{tooltip}" type="{type}" select="{select}" selectColor="RHLSA(0;1.0;3.0;1.0)"></vbm:Spot>
+                                        </vbm:items>
+                                    </vbm:Spots>
+                                </vbm:vos>
+                            </vbm:GeoMap>
+                            <SearchField placeholder="Search" tooltip="Search for location..." liveChange="SearchLocation" search="SearchLocation" showSearchButton="true" visible="true" width="100%" />
+                            <ScrollContainer horizontal="true" vertical="true" width="100%" height="500px" visible="true">
+                                <content>
+                                    <List id="polocation" width="100%" headerText="Location" footerText="" backgroundDesign="Solid" showSeparators="All" growing="true" growingThreshold="10" inset="false" growingTriggerText="" showNoData="true" growingScrollToLoad="false" visible="true" items="{/modelData1/0/location}">
+                                        <infoToolbar>
+                                            <Toolbar width="100%" height="auto" design="Auto" visible="false" enabled="true">
+                                                <content>
+                                                    <Label text="Label" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                                                </content>
+                                            </Toolbar>
+                                        </infoToolbar>
+                                        <items>
+                                            <ObjectListItem intro="{contact/email}" title="{facility/name}" type="Active" selected="true" showMarkers="false" press="handleOnPress">
+                                            <attributes>
+                                                <ObjectAttribute text="{facility/address/city} {facility/address/state} {facility/address/zip}" active="false" visible="true" />
+                                                <ObjectAttribute text="{facility/address/country}" active="false" visible="true" />
+                                            </attributes>
+                                            <firstStatus>
+                                                <ObjectStatus text="{status}" state="None" visible="true" />
+                                            </firstStatus>
+                                            <secondStatus>
+                                                <ObjectStatus text="{contact/last_name}" state="None" visible="true" />
+                                            </secondStatus>
+                                        </ObjectListItem>
+                                        </items>
+                                    </List>
+                                </content>
+                            </ScrollContainer>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                    <IconTabFilter icon="sap-icon://list" iconColor="Neutral" text="Info" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                       <ScrollContainer horizontal="true" vertical="true" width="100%" height="500px" visible="true">
+                            <content>
+                            <form:SimpleForm id="UserForm1" minWidth="1024">
+                                <core:Title text="Details Information" />
+                                <Label text="Country" />
+                                <Text text="{country}" />
+                                <Label text="Description" />
+                                <Text text="{detailed_description}" />
+                                <Label text="Last Update" />
+                                <Text text="{last_update_submitted}" />
+                                <Label text="Contact" />
+                                <Text text="{last_name}" />
+                                <Label text="Phone" />
+                                <Text text="{phone}" />
+                                <Label text="Email" />
+                                <Text text="{email}" />
+                            </form:SimpleForm>
+                            </content>
+                        </ScrollContainer>
+                    </IconTabFilter>
+                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                    <IconTabFilter icon="sap-icon://activity-items" iconColor="Neutral" text="Eligibility" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <ScrollContainer horizontal="true" vertical="true" width="100%" height="500px" visible="true">
+                            <content>
+                                <form:SimpleForm id="UserForm2" minWidth="1024">
+                                <core:Title text="Eligibility Criteria" />
+                                <Label text="Inclusion Criteria" />
+                                <Text text="{inclusioncriteria}" />
+                                <Label text="Exclusion Criteria" />
+                                <Text text="{exclusioncriteria}" />
+                                <Label text="Gender" />
+                                <Text text="{eligibility/gender}" />
+                                <Label text="Minimum Age" />
+                                <Text text="{eligibility/minimum_age}" />
+                                <Label text="Maximum Age" />
+                                <Text text="{eligibility/maximum_age}" />
+                                <Label text="Healthy Volunteers" />
+                                <Text text="{eligibility/healthy_volunteers}" />
+                            </form:SimpleForm>
+                            </content>
+                        </ScrollContainer>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+        </uxap:headerContent>
+        <uxap:headerTitle>
+            <uxap:ObjectPageHeader objectTitle="{official_title}" objectSubtitle="{brief_summary}" headerDesign="Light" objectImageShape="Square" isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false" isObjectSubtitleAlwaysVisible="false" isActionAreaAlwaysVisible="true">
+                <uxap:breadCrumbsLinks/>
+                <uxap:navigationBar/>
+            </uxap:ObjectPageHeader>
+        </uxap:headerTitle>
+    </uxap:ObjectPageLayout>
+</Page>
+</mvc:View>

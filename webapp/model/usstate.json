@@ -1,0 +1,206 @@
+[
+  {
+    "code": "US:AL",
+    "state": "Alabama"
+  },
+  {
+    "code": "US:AK",
+    "state": "Alaska"
+  },
+  {
+    "code": "US:AZ",
+    "state": "Arizona"
+  },
+  {
+    "code": "US:AR",
+    "state": "Arkansas"
+  },
+  {
+    "code": "US:CA",
+    "state": "California"
+  },
+  {
+    "code": "US:CO",
+    "state": "Colorado"
+  },
+  {
+    "code": "US:CT",
+    "state": "Connecticut"
+  },
+  {
+    "code": "US:DE",
+    "state": "Delaware"
+  },
+  {
+    "code": "US:DC",
+    "state": "District of Columbia"
+  },
+  {
+    "code": "US:FL",
+    "state": "Florida"
+  },
+  {
+    "code": "US:GA",
+    "state": "Georgia"
+  },
+  {
+    "code": "US:HI",
+    "state": "Hawaii"
+  },
+  {
+    "code": "US:ID",
+    "state": "Idaho"
+  },
+  {
+    "code": "US:IL",
+    "state": "Illinois"
+  },
+  {
+    "code": "US:IN",
+    "state": "Indiana"
+  },
+  {
+    "code": "US:IA",
+    "state": "Iowa"
+  },
+  {
+    "code": "US:KS",
+    "state": "Kansas"
+  },
+  {
+    "code": "US:KY",
+    "state": "Kentucky"
+  },
+  {
+    "code": "US:LA",
+    "state": "Louisiana"
+  },
+  {
+    "code": "US:ME",
+    "state": "Maine"
+  },
+  {
+    "code": "US:MD",
+    "state": "Maryland"
+  },
+  {
+    "code": "US:MA",
+    "state": "Massachusetts"
+  },
+  {
+    "code": "US:MI",
+    "state": "Michigan"
+  },
+  {
+    "code": "MN",
+    "state": "Minnesota"
+  },
+  {
+    "code": "US:MS",
+    "state": "Mississippi"
+  },
+  {
+    "code": "US:MO",
+    "state": "Missouri"
+  },
+  {
+    "code": "US:MT",
+    "state": "Montana"
+  },
+  {
+    "code": "US:NE",
+    "state": "Nebraska"
+  },
+  {
+    "code": "US:NV",
+    "state": "Nevada"
+  },
+  {
+    "code": "US:NH",
+    "state": "New Hampshire"
+  },
+  {
+    "code": "US:NJ",
+    "state": "New Jersey"
+  },
+  {
+    "code": "US:NM",
+    "state": "New Mexico"
+  },
+  {
+    "code": "US:NY",
+    "state": "New York"
+  },
+  {
+    "code": "US:NC",
+    "state": "North Carolina"
+  },
+  {
+    "code": "US:ND",
+    "state": "North Dakota"
+  },
+  {
+    "code": "US:OH",
+    "state": "Ohio"
+  },
+  {
+    "code": "US:OK",
+    "state": "Oklahoma"
+  },
+  {
+    "code": "US:OR",
+    "state": "Oregon"
+  },
+  {
+    "code": "US:PA",
+    "state": "Pennsylvania"
+  },
+  {
+    "code": "US:RI",
+    "state": "Rhode Island"
+  },
+  {
+    "code": "US:SC",
+    "state": "South Carolina"
+  },
+  {
+    "code": "US:SD",
+    "state": "South Dakota"
+  },
+  {
+    "code": "US:TN",
+    "state": "Tennessee"
+  },
+  {
+    "code": "US:TX",
+    "state": "Texas"
+  },
+  {
+    "code": "US:UT",
+    "state": "Utah"
+  },
+  {
+    "code": "US:VT",
+    "state": "Vermont"
+  },
+  {
+    "code": "US:VA",
+    "state": "Virginia"
+  },
+  {
+    "code": "US:WA",
+    "state": "Washington"
+  },
+  {
+    "code": "US:WV",
+    "state": "West Virginia"
+  },
+  {
+    "code": "US:WI",
+    "state": "Wisconsin"
+  },
+  {
+    "code": "US:WY",
+    "state": "Wyoming"
+  }
+]
